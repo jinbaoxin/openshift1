@@ -9,7 +9,7 @@ var healthy=true;
 
 
 app.get('/', function (req, res) {
-  res.send('Hello worlooood v.1.13 ' + os.hostname() + '\n');
+  res.send('Hello world from me v.1.13 ' + os.hostname() + '\n');
 });
 
 
